@@ -246,6 +246,9 @@ footer{
 
 @media screen and (max-width:576px) {
     /* header media */
+    header{
+        margin-right: 0;
+    }
     .nav{
         flex-direction: column;
         text-align: center;
@@ -302,7 +305,7 @@ footer{
     }
     .architect-img img{
         margin-left: 15px;
-        width: 450px;
+        width: 400px;
         height: 600px;
     }
     /* achievement media */
