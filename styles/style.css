@@ -163,4 +163,59 @@ a{
 }
 .achievement{
     text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 150px;
+    height: 100px;
+    padding: 45px 35px 60px 35px;
+}
+.achievement:hover{
+    border: 3px solid skyblue;
+}
+.achievement-name{
+    font-weight: 600;
+    font-size: 16px;
+    color: #727272;
+}
+.achievement img {
+    margin-bottom: 10px;
+}
+.achievement-number{
+    padding-bottom: 10px;
+}
+/* sponsor styles */
+.sponsor-details{
+    text-align: center;
+}
+.sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-top: 160px;
+    padding-bottom: 24px;
+}
+.sponsor-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.sponsor-img{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+/* footer styles */
+footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1300px;
+    height: 90px;
+    text-align: center;
+    margin: 130px 240px 200px 100px;
+}
+.footer-description{
+    padding-top: 35px;
 }
