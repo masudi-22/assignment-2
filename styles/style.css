@@ -183,6 +183,26 @@ a{
 .achievement-number{
     padding-bottom: 10px;
 }
+/* our architects styles */
+.architect-intro{
+    margin-top: 130px;
+    text-align: center;
+}
+.architect{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    grid-row-gap: 20px;
+}
+.architect-title{
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 45px; 
+}
+.architect img{
+    width: 100px;
+    height: 100px;
+}
 /* sponsor styles */
 .sponsor-details{
     text-align: center;
@@ -191,7 +211,7 @@ a{
     font-weight: 700;
     font-size: 45px;
     color: #131313;
-    padding-top: 160px;
+    padding-top: 100px;
     padding-bottom: 24px;
 }
 .sponsor-description{
@@ -204,8 +224,11 @@ a{
 .sponsor-img{
     display: flex;
     justify-content: space-around;
-    height: 50px;
     align-items: center;
+}
+.sponson-img img{
+    width: 150px;
+    height: 50px;
 }
 /* footer styles */
 footer{
@@ -214,7 +237,7 @@ footer{
     width: 1300px;
     height: 90px;
     text-align: center;
-    margin: 130px 240px 200px 100px;
+    margin: 130px 240px 100px 100px;
 }
 .footer-description{
     padding-top: 35px;
