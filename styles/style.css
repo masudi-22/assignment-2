@@ -263,6 +263,9 @@ footer{
         padding-left: 5px;
         padding-right: 5px;
     }
+    .btn-1{
+        margin-bottom: 20px;
+    }
     .banner-img{
         padding: 0px 0px 45px 0px;
         width: 400px;
@@ -289,15 +292,18 @@ footer{
     }
     .features{
         flex-direction: column;
+        padding-bottom: 0px;
     }
     .title{
-        margin: 100px 20px 20px 20px;
+        margin: 60px 20px 20px 20px;
     }
     .features-introduction,.feature{
         padding: 0px 20px 20px 20px;
     }
     .architect-img img{
         margin-left: 15px;
+        width: 450px;
+        height: 600px;
     }
     /* achievement media */
     .achievements{
@@ -307,7 +313,7 @@ footer{
         margin-left: 15px;
     }
     .achievement-title{
-        padding: 100px 50px 20px 50px;
+        padding: 700px 50px 20px 50px;
     }
     .achievement-description{
         padding: 0px 50px 100px 50px;
@@ -323,9 +329,9 @@ footer{
     }
     /* footer media */
     footer{
-        width: 570px;
-        height: 60px;
-        margin: 100px 0px 100px 0px;
+        width: 400px;
+        height: 80px;
+        margin: 100px 0px 100px 35px;
     }
     .footer-description{
         padding-top: 20px;
