@@ -242,3 +242,92 @@ footer{
 .footer-description{
     padding-top: 35px;
 }
+/* media */
+
+@media screen and (max-width:576px) {
+    /* header media */
+    .nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-title{
+        padding: 50px 0px 0px 0px;
+    }
+    ul{
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 60px;
+    }
+    .banner-description{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .banner-img{
+        padding: 0px 0px 45px 0px;
+        width: 400px;
+        height: 200px;
+    }
+    /* quick list media */
+    .feature-list{
+        flex-direction: column;
+    }
+    .feature-img{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        justify-items: center;
+    }
+    .feature-list-details{
+        text-align: center;
+    }
+    .feature-list-title{
+        padding: 50px 0px 10px 0px;
+    }
+    /* feature media */
+    br{
+        display: none;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .title{
+        margin: 100px 20px 20px 20px;
+    }
+    .features-introduction,.feature{
+        padding: 0px 20px 20px 20px;
+    }
+    .architect-img img{
+        margin-left: 15px;
+    }
+    /* achievement media */
+    .achievements{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 20px;
+        margin-left: 15px;
+    }
+    .achievement-title{
+        padding: 100px 50px 20px 50px;
+    }
+    .achievement-description{
+        padding: 0px 50px 100px 50px;
+    }
+    /* our architect media */
+    .architect{
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* our sponsor media */
+    .sponsor-img{
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* footer media */
+    footer{
+        width: 570px;
+        height: 60px;
+        margin: 100px 0px 100px 0px;
+    }
+    .footer-description{
+        padding-top: 20px;
+    }
+}
